@@ -30,7 +30,7 @@ app.use(session({
   }),
   //cookie: { maxAge: new Date ( Date.now() + (3600000) ) } 
 }));
-
+ 
 app.use(express.static('public'));
 
 // Templating Engine
